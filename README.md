@@ -1,12 +1,13 @@
-Here is a professional, well-structured, and polished README for your GitHub repository. I've organized it with clear headings, code blocks, and emojis to make it visually appealing and easy for other developers to read.
-
 🌲 Forest AI – Multi-Model AI Assistant
+
 Forest AI is a full-stack, multi-model AI assistant designed to enable users to interact with multiple Large Language Models (LLMs) through a single, unified interface. The system simulates a real-world, scalable AI application environment by supporting intelligent model selection, secure user authentication, and persistent chat history.
 
 📖 Overview
+
 Forest AI allows users to seamlessly query different AI models, compare their responses, and receive optimized, synthesized answers. The application features a modular and scalable architecture that perfectly integrates backend API endpoints, secure database storage, and a responsive frontend UI.
 
 ✨ Features
+
 Secure Authentication: Token-based security (JWT) with securely hashed passwords (SHA-256).
 
 Persistent Memory: Chat histories are saved per user and stored reliably in MongoDB.
@@ -20,6 +21,7 @@ Multi-Model Comparison: Synthesizes outputs from multiple models to provide the 
 Responsive UI: A clean, intuitive frontend for real-time interaction and conversation management.
 
 🛠️ Tech Stack
+
 Backend: FastAPI, Python
 
 Server: Uvicorn
@@ -33,6 +35,7 @@ Frontend: HTML5, CSS3, Vanilla JavaScript
 AI Integration: Ollama (Models: llama3, phi3, deepseek)
 
 🚀 Getting Started
+
 Follow these instructions to set up and run the project on your local machine.
 
 Prerequisites
@@ -75,6 +78,7 @@ uvicorn main:app --reload
 Access the application: Open your browser and navigate to http://localhost:8000
 
 📂 Project Structure
+
 Plaintext
 MultimodelAI_01/
 ├── main.py                 # FastAPI application entry point
@@ -88,7 +92,10 @@ MultimodelAI_01/
 │   ├── script.js
 │   └── styles.css
 └── config/                 # Application configuration modules
+
+
 🔐 Architecture & Workflows
+
 Authentication Flow
 Users register by providing a username, email, and password.
 
@@ -108,6 +115,8 @@ Users can instantly retrieve and load previous conversation threads.
 In multi-model mode, responses from different LLMs are analyzed and synthesized to provide a highly accurate final output.
 
 ⚙️ Configuration
+
+
 The default environmental configuration is located in main.py. For production environments, it is highly recommended to move these to a .env file.
 
 🗺️ Roadmap / Future Improvements
@@ -123,11 +132,13 @@ The default environmental configuration is located in main.py. For production en
 [ ] Optimize performance with advanced caching strategies (e.g., Redis).
 
 👤 Author
+
 Harsh Agarwal
 
 Email: harsh741334@gmail.com
 
 💡 English Vocabulary & Phrasing Tip
+
 To help you continue refining your English:
 
 In your prompt, you wrote "cretae" and "givve". The correct spellings are create and give.
